@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+  }
+  
+  header, main, footer {
+    width : 80%;
+    margin-left: 10%;
+    background-color: lightblue;
+  }
+  
+  header {
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    /* 요소들을 텍스트 방향과 동일하게 정렬 */
+    justify-content: flex-end; 
+    /* 요소 사이에 동일한 간격 */
+    align-items: right; 
+    /* 그리드 아이템을 정렬하는 태그 / 요소를 반대축으로 정렬 */
+  }
+  
+  #title { 
+    margin: 20%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+  nav>ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+  
+  nav li {
+    padding: 5px 10px;
+    background-color: bisque;
+    color: rgb(130, 255, 92);
+    margin: 10px;
+    display: inline-flex;
+    border-radius: 5px;
+
+  }
+
+  a {
+    width: 100%;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+
+  
+  
+  article {
+    padding: 50px;
+    margin: 100%;
+  
+  }
+  
+  article > p {
+    font-family: "Nanum Pen Script", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: blue;
+  }
+  
+  section {
+    margin-left: 10%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  section img {
+    border-radius: 50%;
+  }
+
+
+ 
+  
+  li:hover {
+    background-color: rgb(64, 248, 58);
+    color: white;
+  }
+  
+  
+  a { 
+    text-decoration: none; 
+  }
+  
+  a:link , a:visited {
+    color: red;
+  }
+  
+  
+  @media screen and (max-width : 1024px){
+    ul {
+      background-color: lightblue;
+      display: flex;
+      flex-direction: column;
+    
+    }
+  
+    li { 
+      width: 80%;
+      margin: 2px;
+    }
+  }

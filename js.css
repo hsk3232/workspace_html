@@ -1,0 +1,81 @@
+header {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header >h1 {
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section{
+    width: 90%;
+    height: 400px;
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    /* 글자 사이즈 만큼만 잡고 싶어 */
+    justify-content: center;
+    /* display로 선언한 버튼튼 부분을 중앙 정렬 */
+    align-items: center;
+}
+
+header > a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: large;
+    padding-right: 10px;
+}
+
+header > a:link, header > a:visited, header > a:hover{
+    color: white;
+    
+}
+
+button {
+    display: inline-flex; 
+    /* 글자 사이즈 만큼만 잡고 싶어 */
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: rgb(37, 111, 248);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#msg{
+    margin-bottom: 20px;
+    color :rgb(0, 118, 221);
+    font-size: large;
+    font-weight: bold;
+    
+}
+#msg > span {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(224, 28, 28);
+}
