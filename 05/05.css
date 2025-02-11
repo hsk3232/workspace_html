@@ -1,0 +1,26 @@
+form {
+    width: 90%;
+    height: 200px;
+    border: 1px solid gray;
+  
+    display: flex;
+      /* display의 디폴트 값이 row라서 중심 축은 -> 방향임 */
+     flex-direction: column;
+     /* flex-direction은 중심축의 방향을 바꿔 줌 */
+    justify-content: center;
+    /* jsutify-content: 중심축과 수직 방향 */
+    align-items: center;
+    /* align-items: 중심축과 수평 방향 */
+}
+
+form > div {
+    margin: 10px;
+    width: 90%;
+   
+    display: flex;
+    /* display의 디폴트 값이 row라서 중심 축은 -> 방향임 */
+    justify-content: center; 
+    /* jsutify-content: 중심축과 수직 방향 */
+    align-items: center;
+    /* align-items: 중심축과 수평 방향 */
+}

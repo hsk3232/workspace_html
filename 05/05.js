@@ -1,27 +1,44 @@
-// alert("안녕하세요!")
+function showmsg(m) {
+    document.getElementById("txt2").value = m;
+}
 
-//consol에 출력
-console.log("안녕하세요!")
 
 
-// < var 실습 >
-// 콘솔 log에 x를 찍었는데, x의 값을 먼저 선언하지 않아서 undefined가 나온다. 먼저 호스트에 x의 공간을 만들어 놓으나 선언한 변수가 없어서 undefined가 나온다. 에러가 일어나지 않고 undifined가 나온 이유는 var은 호이스팅이 일어나기 때문이다.
-// console.log(x);
-// var x = 1; 
-// console.log(x);
+function check1() {
 
-// < let 실습 >
-// var과 다르게 let은 호이스팅이 일어나지 않는다. 그래서 선언하기 전에 사용하면 에러가 난다. const도 마찬가지이다.
-// let y = 1; 
-// console.log(y);
-// let y = 1; 
-// console.log(y);
+    //1. 입력 문자열 가져오기
+    let s = document.getElementById("txt1").value; //문자열을 가져온다.
 
-let x = 10; //변수 선언
-const y = 10; //상수 선언
+    //2. 문자열 뒤집어진 문자열 생성
+    let sr = '';
+    for (let i = s.length - 1; i >= 0; i--) {
+        sr += s[i];
+    }
+    console.log(s, sr);
 
-console.log("x = ", x, "y = ", y); //10 10
-console.log("x = " + x +"y = ", y); //10 10
-// 자바스크립트는 ""와 ''를 구분하지 않는다.
-//java는 ""는 char, ''는 string이지만 자바스크립트는 구분하지 않는다.
+    //3. 입력 문자열과 뒤집어진 문자열 비교
+    if (s == sr) {
+        // document.getElementById("txt2").value = "회문입니다.";
 
+        showmsg("회문입니다.");
+    } else {
+        document.getElementById("txt2").value = "회문이 아닙니다.";
+        //showMag("회문이 아닙닙니다.");
+    
+    }
+
+}
+
+const check2 = () => {
+    let s = document.getElementById("txt1").value;
+    let sum = 0;
+    for (let c of s) {
+        if (!isNaN(c)) {
+            sum += parseInt(c);
+        }
+    }
+
+    // document.getElementById("txt2").value = sum;
+    showmsg(sum);
+
+}

@@ -61,6 +61,16 @@ button {
 
 }
 
+input[type=text] {
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#txt2{
+    background-color: salmon;
+    color: white;
+}
 
 button:hover {
     background-color: black;
