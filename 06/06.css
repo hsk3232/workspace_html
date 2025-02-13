@@ -1,0 +1,40 @@
+#msg > span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 3px;
+    
+    border-radius: 50%;
+    color: white;
+  
+    font-size: 17px;
+  }
+
+  .sp0 {
+    background-color: #f44336;
+  }
+
+  .sp1 {
+    background-color: #eeda2b;
+  }
+
+  .sp2 {
+    background-color: #ae23c7;
+  } 
+
+  .sp3 {
+    background-color: #0a9b29;
+  }
+  .sp4 {
+    background-color: #266afd;
+  }
+
+ .plus {
+    color: black !important; /* + 기호를 검은색으로 변경 *, 상위 개념인 span에 글자색 흰색이 적용되어 요소에 적용이 안될 때는 !Impartant를 사용해서 강제 적용 가능 */
+    font-weight: bold;
+    margin: 0 5px; /* 숫자와 + 사이 간격 조정 */
+}
