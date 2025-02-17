@@ -39,7 +39,7 @@ article{
     /* 디스플레이를 flex로 지정해야 justify-content 위치 조정 가능*/
 }
 h1 {
-    height: 80px;
+    height: 90%;
     padding: 20px;
     background-color: black;
     color : white;

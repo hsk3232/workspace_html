@@ -1,29 +1,37 @@
-.unit{
-
-    width : 600px;
-    background-color: aliceblue;
+.unit {
+    width : 100% ;
+    background-color: skyblue;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    margin-bottom: 20px;
-}
-
-.unitDiv{
+    text-align: center;
+  }
+  
+  .unitDiv {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-
-
-}
-
-
-select, .unitDiv >div{
+    margin: 10px; 
+    
+  }
+  
+  select, .unitDiv > div {
     display: inline-flex;
-    width: 30px;
-    height: 30px;
+    width: 40%;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  input{
+    text-align: center;
+  }
 
-}
+
+  input[readonly] {
+    background-color: red;
+    text-align: center;
+  }

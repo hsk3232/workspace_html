@@ -1,0 +1,45 @@
+.title{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    /* 글자 사이즈 만큼만 잡고 싶어 */
+    justify-content: center;
+    /* display로 선언한 버튼튼 부분을 중앙 정렬 */
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.result{
+    background-color: bisque;
+    margin: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 10px;
+    display: flex;
+    width: 90%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox{
+    margin: 10px;
+    display: flex;
+    width: 90%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
