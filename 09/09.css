@@ -1,0 +1,30 @@
+.dice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.diceDiv{
+    margin: 10px;
+
+}
+
+
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#btbox{
+   
+    margin-bottom: 20px;
+}
+
+#msg{
+
+
+    margin-bottom: 20px;
+
+}

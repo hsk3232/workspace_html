@@ -1,0 +1,29 @@
+.unit{
+
+    width : 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.unitDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+
+}
+
+
+select, .unitDiv >div{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+
+}

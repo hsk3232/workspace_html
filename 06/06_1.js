@@ -47,7 +47,7 @@ console.log("of 반복2") ;
 for(let i of arr.entries())  {
   console.log(i) ;
 }
-//구조분해할당당
+//구조분해할당
 for(let [i, item] of arr.entries())  {
   console.log(i, item) ;
 }
