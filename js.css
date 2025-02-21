@@ -24,7 +24,7 @@ header >h1 {
 
 section{
     width: 90%;
-    height: 400px;
+    height: 100%;
     border: 1px dotted black;
     display: flex;
     flex-direction: column;

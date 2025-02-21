@@ -3,6 +3,7 @@ const getFetch = async (dt, ul) => {
     let apiKey = '키값'
     let baseUrl = 'http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?'
     let url = `${baseUrl}key=${apiKey}&targetDt=${dt}`;
+     //url get방식으로 요청할 때는 주소에 &달기 => 위의 예시는는 key값, targetDt를 요청함.
 
 
     try {
