@@ -12,7 +12,9 @@ const unitChange = (s1, s2, sel1, sel2, txt1, txt2, sps) => {
     sps[1].textContent = sel2.value;
     txt1.value = "";
     txt2.value = "";
-    txt1.focus();
+    txt1.focus(); // .foucus => 페이지 로딩이 끝나면,
+    //  텍스트 커서가 자동으로 <input>에 가도록 하는 코드로 사용자가
+    // 양식 필드를 직접 클릭할 필요 없이 바로 집중해 시작할 수 있도록 도움.
 
 }
 

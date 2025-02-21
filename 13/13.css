@@ -1,0 +1,44 @@
+form{
+    width: 90%;
+    height: 60px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#dt{
+    height: 30px;
+
+}
+
+ul{
+    width:  90%;
+}
+
+li {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: small;
+
+    display: flex;
+    align-items: baseline;
+    
+}
+
+li:hover{
+    background-color: rgb(209, 241, 64);    
+}
+
+.sp{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center  ;
+
+    background-color: black;
+    color: chartreuse;
+    border-radius: 5px;
+    margin-right: 10px;
+}
